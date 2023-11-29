@@ -5,8 +5,9 @@ public class Wraperclass {
 	public static void main(String[] args) {
 		Integer Integervalue=200;
 		System.out.println(Integervalue);
+		
 		Integer Integervalue1=new Integer(Integervalue);
-		System.out.println(Integervalue1);
+		System.out.println(Integervalue1.toString());
 		Integer Integervalue2=Integer.valueOf(Integervalue1);
 		System.out.println(Integervalue2);
 		Float floatvalue=new Float(2.5);
@@ -24,7 +25,11 @@ public class Wraperclass {
 		Long Longvalue=new Long(300);
 		System.out.println(Longvalue);
 		System.out.println(Long.valueOf(450));
-		
+		System.out.println(new Double(344.67).longValue());
+		System.out.println(new Long(322).doubleValue());
+		System.out.println(new Integer(123).floatValue());
+        System.out.println(new Float(3456.90).intValue());	
+        System.out.println(new Character('k').charValue());
 		
 
 	}
